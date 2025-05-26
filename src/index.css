@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+#root {
+  @apply m-0 flex flex-col min-h-dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
